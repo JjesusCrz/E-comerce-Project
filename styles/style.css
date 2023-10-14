@@ -302,5 +302,65 @@ display: flex;
     border-radius: 1rem;
     cursor: pointer;
     transition: all 0.2s;
+}
+.feedback:hover{
+    transform: translatey(-5px);
+}
 
+.feedback p{
+    margin: 5px 0 ;
+}
+
+.feedback p:first-child{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #0084ff;
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+
+.feedback p:last-child{
+    font-weight: bold;
+}
+
+/*Footer*/
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+    padding: 4rem 1rem;
+    gap: 2rem;
+}
+
+.download-options>p:first-child{
+    font-weight: bold;
+    color: #fff;
+}
+
+.download-options>div{
+    display: flex;
+}
+
+.download-options>img{
+    width: 180px;
+}
+
+.logo-footer{
+    text-align: center;
+}
+
+.links-footer h3{
+    color: #fff;
+    margin-bottom: 0 8rem;
+}
+
+.links-footer ul{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.copyright{
+    color: #fff;
+    padding: 4rem 0rem;
+    text-align: center;
 }
